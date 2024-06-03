@@ -1,0 +1,175 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Header and navigation bar */
+header {
+    background: linear-gradient(to right, #00FFFF, #9932CC);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #9932CC;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #111;
+}
+
+nav a.active {
+    background-color: #4CAF50;
+}
+
+/* Logo */
+.logo {
+    float: left;
+    width: 75%;
+    height: 90%;
+}
+
+/* Welcome section */
+.welcome {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+.welcome h2 {
+    text-shadow: 2px 2px 4px #999;
+}
+
+/* Forms */
+form {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+form input[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+/* Table */
+table.sample-table {
+    margin: 20px;
+    border: 1px solid #ddd;
+}
+
+table.sample-table th,
+table.sample-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+table.sample-table th {
+    background: linear-gradient(to right, #4CAF50, #4CAF90);
+    color: white;
+}
+
+table.sample-table td {
+    background: #f9f9f9;
+}
+
+table.sample-table td:hover {
+    background: #f1f1f1;
+    border: 1px solid #4CAF50;
+}
+
+/* News Portal */
+.news-portal img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.news-portal img:hover {
+    transform: scale(1.1);
+}
+
+/* Image Gallery */
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.image-gallery img:hover {
+    opacity: 0.8;
+    border-color: #4CAF50;
+}
+
+/* Contact Page */
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.contact-form form {
+    width: 45%;
+}
+
+.contact-info {
+    width: 45%;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Icons (assuming you are using FontAwesome) */
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: #4CAF50;
+}
